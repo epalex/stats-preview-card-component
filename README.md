@@ -2,8 +2,8 @@
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/epalex/stats-preview-card-component
+- Live Site URL: https://epalex.github.io/stats-preview-card-component/
 
 ## Built with
 
