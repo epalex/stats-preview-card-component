@@ -11,11 +11,12 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 85%;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  margin-top: 88px;
 }
 
 figure img {
@@ -25,13 +26,33 @@ figure img {
   border-radius: 8px 8px 0 0;
 }
 
+header {
+  margin: 0 auto;
+  width: 85%;
+}
+
 .header-and-insights {
   background-color: #1b1937;
+  border-radius: 0 0 8px 8px;
+}
+
+a {
+  text-decoration: none;
+  color: tomato;
+}
+
+paminos {
+  font-weight: 600;
+  color: orangered;
 }
 
 footer {
-  background-color: #1b1937;
-  border-radius: 0 0 8px 8px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+  color: grey;
 }
 
 h1 {
@@ -40,16 +61,44 @@ h1 {
   font-weight: bold;
   font-size: 28px;
   line-height: 32px;
-  text-align: center;
   color: white;
-  max-width: 265px;
+  text-align: center;
 }
 
 header p {
-  margin-top: 16px;
+  margin-top: 24px;
   margin-bottom: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+  opacity: 0.75;
 }
 
 .purple-text {
   color: #ab5cdb;
+}
+
+.insights p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.insights p span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  opacity: 0.6;
+  display: block;
 }
