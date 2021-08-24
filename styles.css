@@ -12,7 +12,6 @@ body {
 .container {
   margin: 0 auto;
   width: 85%;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,4 +106,63 @@ header p {
   letter-spacing: 1px;
   opacity: 0.6;
   display: block;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 80%;
+    height: 100vh;
+    margin-top: unset;
+  }
+
+  .image-header-insights {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 8px;
+  }
+
+  figure {
+    flex: 1 1 0px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  figure img {
+    content: url(./images/image-header-desktop.jpg);
+    height: 100%;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+    text-align: left;
+    margin: unset;
+  }
+
+  header {
+    margin: unset;
+  }
+
+  header p {
+    text-align: left;
+    width: 60%;
+  }
+
+  .insights {
+    display: flex;
+    margin-top: 88px;
+    margin-bottom: 48px;
+  }
+
+  .insights p {
+    text-align: left;
+    margin-right: 60px;
+  }
+
+  .header-and-insights {
+    flex: 1 1 0px;
+    padding: 60px 0 40px 75px;
+  }
 }
